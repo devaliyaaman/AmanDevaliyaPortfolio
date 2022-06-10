@@ -1,0 +1,144 @@
+body {
+    /* CSS Formatting  */
+    margin: 0px;
+    padding: 0px;
+    background-color: #a0daa9;
+    text-align: center;
+}
+
+.img1 {
+    height: 100px;
+    width: 100px;
+    position: relative;
+    top: 1.5em;
+    left: 74%;
+}
+
+.img4 {
+    height: 125px;
+    width: 200px;
+    text-align: left;
+}
+
+.img4 {
+    width: 400px;
+    position: relative;
+    /* float: left; */
+    bottom: 7em;
+    left: 5%;
+}
+
+/*
+.img3 {
+
+    position: absolute;
+}
+
+.img4 {
+
+    position: absolute;
+} */
+
+.welcome {
+    padding: 5% 29%;
+    padding-bottom: 10px;
+    margin: 0px;
+    padding-top: 0%;
+    background-color: #a0daa9;
+}
+
+h1 {
+    font-family: "Great Vibes", cursive;
+    /* font-size: xx-large; */
+    font-size: 65px;
+}
+
+.welcome p {
+    font-family: "Great Vibes", cursive;
+    font-size: 30px;
+    margin: 5px;
+    padding: 5px;
+}
+
+.btn {
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 2px;
+    padding: 3px;
+    background-color: #baf9c4;
+}
+
+.btn a {
+    text-decoration: none;
+    color: #163d33;
+}
+
+.dsa .lang .web {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.left,
+.right {
+    width: 65%;
+    margin: 5rem auto;
+}
+
+.left img {
+    height: 150px;
+    float: left;
+}
+
+.right img {
+    height: 150px;
+    float: right;
+}
+
+/* .btn a:visited{
+    background-color: #e1f5e5;
+    color: rgb(133, 122, 122); 
+}*/
+
+hr {
+    width: 5%;
+    margin: 30px auto;
+    border: 5px dotted #d1f7d7;
+    background-color: #a0daa9;
+    border-bottom: 0px;
+    opacity: 0.35;
+    /* display: none; */
+}
+
+.btn {
+    background: #18f2d5;
+    background-image: -webkit-linear-gradient(top, #18f2d5, #2ad4a1);
+    background-image: -moz-linear-gradient(top, #18f2d5, #2ad4a1);
+    background-image: -ms-linear-gradient(top, #18f2d5, #2ad4a1);
+    background-image: -o-linear-gradient(top, #18f2d5, #2ad4a1);
+    background-image: linear-gradient(to bottom, #18f2d5, #2ad4a1);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 5px;
+    font-family: Georgia;
+    color: #163d33;
+    font-size: 15px;
+    padding: 3px 5px 3px 5px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background: #29daf5;
+    background-image: -webkit-linear-gradient(top, #29daf5, #4dcaf7);
+    background-image: -moz-linear-gradient(top, #29daf5, #4dcaf7);
+    background-image: -ms-linear-gradient(top, #29daf5, #4dcaf7);
+    background-image: -o-linear-gradient(top, #29daf5, #4dcaf7);
+    background-image: linear-gradient(to bottom, #29daf5, #4dcaf7);
+    text-decoration: none;
+    padding: 3px 10px;
+}
+
+footer {
+    margin-top: 50px;
+    height: 20px;
+    background-color: #7b8482;
+    color: black;
+}
